@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/87bd995e19.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cal.css">
+
+</head>
+
+<body>
+    <div id="calculator">
+        <div class="">
+            <div class="d-flex flex-column justify-content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                            <div class="text-center">
+                                <h1>Calculator</h1>
+                            </div>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="box">
+                                    <div>
+                                        <input type="text" id="display" class="screen" />
+                                        <!--value="0"-->
+                                    </div>
+                                    <p class="paragraph" id="requiredPara"></p>
+                                    <div class="mt-3 calculator-buttons">
+
+                                        <button type="button" id="num7" class="" value="7">7</button>
+                                        <button type="button" id="num8" class="" value="8">8</button>
+                                        <button type="button" id="num9" class="" value="9">9</button>
+                                        <button type="button" id="plus" class="" value="+">+</button>
+
+                                        <button type="button" id="num4" class="" value="4">4</button>
+                                        <button type="button" id="num5" class="" value="5">5</button>
+                                        <button type="button" id="num6" class="" value="6">6</button>
+                                        <button type="button" id="minus" class="" value="-">-</button>
+
+                                        <button type="button" id="num1" class="" value="1">1</button>
+                                        <button type="button" id="num2" class="" value="2">2</button>
+                                        <button type="button" id="num3" class="" value="3">3</button>
+                                        <button type="button" id="multiplication" class="" value="*">x</button>
+
+                                        <button type="button" id="num0" class="" value="0">0</button>
+
+                                        <button type="button" id="allClear" class="" value="all-clear">AC</button>
+                                        <button type="button" id="equal" class="" value="=">=</button>
+                                        <button type="button" id="divide" class="" value="/">/</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+</body>
+
+</html>
